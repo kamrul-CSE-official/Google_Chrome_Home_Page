@@ -12,6 +12,14 @@ const Page = () => {
       <div>
         <ImportantLink />
       </div>
+      <div>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
+          dignissimos praesentium quis reprehenderit, similique id est nostrum
+          repellat quia unde sapiente provident corporis officiis, cupiditate
+          omnis culpa nisi rem nihil?
+        </p>
+      </div>
     </div>
   );
 };
