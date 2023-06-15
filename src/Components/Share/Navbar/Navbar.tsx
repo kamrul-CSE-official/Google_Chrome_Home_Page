@@ -9,7 +9,7 @@ const Navbar: React.FC = () => {
   }, []);
   return (
     <div className="relative text-center">
-      <div className="navbar bg-base-100">
+      <div className="navbar bg-base-200 shadow-md">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost btn-circle">
@@ -34,9 +34,6 @@ const Navbar: React.FC = () => {
             >
               <li>
                 <Link to="/">Home</Link>
-              </li>
-              <li>
-                <a>Portfolio</a>
               </li>
               <li>
                 <Link to="/about">About</Link>
@@ -74,14 +71,14 @@ const Navbar: React.FC = () => {
           </label>
         </div>
       </div>
-      <div className="absolute top-0 left-1/2 transform -translate-x-1/2 p-2 text-orange-400 border border-gradient-to-br from-purple-500 to-pink-500">
+      <div className="absolute top-0 left-1/2 transform -translate-x-1/2 p-2 rounded-md border border-gradient-to-br from-purple-500 to-pink-500 overflow-hidden sm:hidden md:hidden lg:block hidden">
         <Marquee speed={35}>
           তোমরা তোমাদের চোখকে নিচু করে রাখ এবং লজ্জাস্থানের হেফজত করো{" "}
-          <span className="text-black">(মুসনাদে আহমাদ)</span> । হে আলি! বার বার
-          দৃষ্টি ক্ষেপণ করো না। কারণ হঠাৎ দৃষ্টিতে তোমার কোনো দোষ নেই। তবে
+          <span className="text-orange-400">(মুসনাদে আহমাদ)</span> । হে আলি! বার
+          বার দৃষ্টি ক্ষেপণ করো না। কারণ হঠাৎ দৃষ্টিতে তোমার কোনো দোষ নেই। তবে
           ইচ্ছাকৃত দ্বিতীয় দৃষ্টি অবশ্যই দোষের{" "}
-          <span className="text-black">(আবু দাউদ)</span> । দৃষ্টি নিয়ন্ত্রণ ছাড়া
-          পাপ নিয়ন্ত্রণ অসম্ভব।
+          <span className="text-orange-400">(আবু দাউদ)</span> । দৃষ্টি নিয়ন্ত্রণ
+          ছাড়া পাপ নিয়ন্ত্রণ অসম্ভব।
         </Marquee>
       </div>
       {/* <h1 className="text-4xl text-center font-bold text-white relative">
