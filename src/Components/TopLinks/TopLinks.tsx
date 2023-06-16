@@ -5,13 +5,13 @@ const TopLinks: React.FC = () => {
     <div className="text-center">
       <div className="grid grid-cols-3">
         <div>
-          <h2>Resource</h2>
+          <h2>AI Tools</h2>
         </div>
         <div>
-          <h2>Resource</h2>
+          <h2>Learn</h2>
         </div>
         <div>
-          <h2>Resource</h2>
+          <h2>Social Media</h2>
         </div>
       </div>
     </div>
