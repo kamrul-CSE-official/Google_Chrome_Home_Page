@@ -7,9 +7,11 @@ const TopLinks: React.FC = () => {
         <div>
           <h2>AI Tools</h2>
         </div>
+        <div className="divider divider-horizontal">OR</div>
         <div>
           <h2>Learn</h2>
         </div>
+        <div className="divider divider-horizontal">OR</div>
         <div>
           <h2>Social Media</h2>
         </div>
